@@ -3,14 +3,33 @@ import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/2
 import '/app/globals.css'
 import NavbarCTA from '@/app/navbar'
 import FooterX from '@/app/footer'
+import { useEffect } from 'react';
 
 
 function Contact() {
+  useEffect(() => {
+    // Add the Tawk.to script dynamically to the document
+    var s1 = document.createElement("script");
+    var s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/65318758f2439e1631e638ad/1hd4nhcrc';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+
+    // Clean up the script when the component unmounts
+    return () => {
+      s1.parentNode.removeChild(s1);
+    };
+  }, []);
+  
     return (
+      
       <main>
+        
       <NavbarCTA/>
 <div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2 md:-mb-40">
-        <div className="relative px-6 pt-20 pb-14 sm:pt-32 lg:static lg:px-8 lg:py-48">
+        <div className="relative w-full h-full px-6 pt-20 pb-14 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="max-w-xl mx-auto lg:mx-0 lg:max-w-lg">
             <div className="absolute inset-y-0 left-0 w-full overflow-hidden bg-gray-100 -z-10 ring-1 ring-gray-900/10 lg:w-1/2">
               <svg
