@@ -8,18 +8,25 @@ import { useEffect } from 'react';
 
 function Contact() {
   useEffect(() => {
-    // Add the Tawk.to script dynamically to the document
-    var s1 = document.createElement("script");
-    var s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/65318758f2439e1631e638ad/1hd4nhcrc';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
+    // Add the Crisp script dynamically to the document
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.innerHTML = `
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "283b7c7f-4f69-4725-ba15-f11822e24856";
+      (function () {
+        var d = document;
+        var s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    `;
+    document.head.appendChild(s);
 
-    // Clean up the script when the component unmounts
+    // Clean up the script when the component unmounts (optional)
     return () => {
-      s1.parentNode.removeChild(s1);
+      document.head.removeChild(s);
     };
   }, []);
   
