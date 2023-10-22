@@ -72,7 +72,7 @@ function Home() {
       alt=""
     />
   </div>
-  <div className="w-full pt-12 mx-auto text-center pb-18 max-w-7xl lg:py-48 lg:text-left">
+  <div className="w-full pt-12 pb-16 mx-auto text-center max-w-7xl lg:py-48 lg:text-left">
     <div className="px-6 sm:px-8 lg:w-1/2 xl:pr-16">
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
         <span className="block xl:inline">Input your custom tagline here.</span>{' '}
