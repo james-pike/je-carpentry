@@ -28,10 +28,10 @@ const NavbarCTA = () => {
 <Navbar fluid rounded>
       <Navbar.Brand href="https://flowbite-react.com">
         <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 ml-3 mr-3 sm:h-9" alt="Flowbite React Logo" />
-        <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">Webdev.ca</span>
+        <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">JE Carpentry</span>
       </Navbar.Brand>
       <div className="flex px-2 md:order-2">
-      <Button style={buttonStyle} className='bg-blue-600'>Contact</Button>
+      <Button style={buttonStyle} className='bg-blue-600'>Get Quote</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
@@ -39,9 +39,9 @@ const NavbarCTA = () => {
       <Navbar.Link href="#" active className="bg-blue-700 rounded"> {/* Apply the class to the selected item */}
                   Home
                 </Navbar.Link>
-                <Navbar.Link href="/home">Home</Navbar.Link>
+                <Navbar.Link href="/home">About</Navbar.Link>
                 <Navbar.Link href="#">Services</Navbar.Link>
-                <Navbar.Link href="#">Pricing</Navbar.Link>
+                <Navbar.Link href="#">Gallery</Navbar.Link>
                 <Navbar.Link href="/contact">Contact</Navbar.Link>
               </ul>
       </Navbar.Collapse>

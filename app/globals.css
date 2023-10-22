@@ -28,3 +28,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+#crisp-chatbox a[rel="noopener noreferrer nofollow"] {
+  display: none !important;
+  opacity: 0;
+  visibility: hidden;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 2px;
+    }
+
+    .banner-image {
+      width: 100%;
+      height: 50vh; /* 50% of the viewport height (half the page height) */
+      object-fit: cover; /* Ensure the image covers the entire container */
+    }

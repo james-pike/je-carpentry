@@ -34,7 +34,11 @@ function Contact() {
       
       <main>
         
+
       <NavbarCTA/>
+
+
+
 <div className="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2 md:-mb-40">
         <div className="relative w-full h-full px-6 pt-20 pb-14 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="max-w-xl mx-auto lg:mx-0 lg:max-w-lg">
