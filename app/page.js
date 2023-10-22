@@ -79,7 +79,7 @@ function Home() {
         
       </h1>
       <p className="max-w-md mx-auto mt-3 text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-      This subtitle block can be used for further information about JE Carpentry.  This subtitle block can be used for further information about JE Carpentry. 
+      This subtitle block can be used for further information about JE Carpentry. This subtitle can be used for information about JE Carpentry. 
       </p>
       <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
         <div className="rounded-md shadow">
