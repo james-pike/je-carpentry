@@ -69,6 +69,7 @@ function Contact() {
                 <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
               </svg>
             </div>
+            <div className='pt-5 lg:hidden'></div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 md:-mt-20">Get a Quote</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt

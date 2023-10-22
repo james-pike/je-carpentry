@@ -2,7 +2,7 @@ import React from 'react';
 
 const FooterX = () => {
   return (
-<footer class="p-4 bg-gray md:p-8 lg:p-10">
+<footer class="p-4 bg-gray-100 md:p-8 lg:p-10">
   <div class="mx-auto max-w-screen-xl text-center">
   
      
@@ -16,9 +16,7 @@ const FooterX = () => {
           <li>
               <a href="#" class="mr-4 hover:underline md:mr-6 ">Services</a>
           </li>
-          <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6 ">Gallery</a>
-          </li>
+     
           <li>
               <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
           </li>

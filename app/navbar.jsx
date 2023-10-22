@@ -17,6 +17,7 @@ const NavbarCTA = () => {
     
       const buttonStyle = {
         margin: '0 10px', // Add margin to create spacing between buttons
+        padding: '0px'
       };
 
     return (
@@ -31,7 +32,7 @@ const NavbarCTA = () => {
         <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">JEC</span>
       </Navbar.Brand>
       <div className="flex px-2 md:order-2">
-      <Button style={buttonStyle} href='/home' className='bg-blue-600'>Get Quote</Button>
+      <Button style={buttonStyle} href='/contact' className='px-0 bg-blue-600'>Get Quote</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
@@ -41,7 +42,6 @@ const NavbarCTA = () => {
                 </Navbar.Link>
                 <Navbar.Link href="#">About</Navbar.Link>
                 <Navbar.Link href="#">Services</Navbar.Link>
-                <Navbar.Link href="#">Gallery</Navbar.Link>
                 <Navbar.Link href="/contact">Contact</Navbar.Link>
               </ul>
       </Navbar.Collapse>
