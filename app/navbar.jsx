@@ -24,7 +24,7 @@ const NavbarCTA = () => {
 
 
 
-<nav className="fixed top-0 left-0 z-20 w-full bg-white border-b dark:bg-gray-900 dark:border-gray-600">
+<nav className="fixed top-0 left-0 z-20 w-full bg-white border-b border-gray dark:bg-gray-900 dark:border-gray-600">
 <div className='fixed top-0 z-50 w-full'>
 <Navbar fluid rounded>
       <Navbar.Brand href="/">
