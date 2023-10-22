@@ -85,7 +85,7 @@ function Home() {
         <div className="rounded-md shadow">
           <a
             href="#"
-            className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover-bg-indigo-700 md:px-10 md:py-4 md:text-lg"
+            className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover-bg-indigo-700 md:px-10 md:py-4 md:text-lg"
           >
             Get A Free Quote Today!
           </a>
