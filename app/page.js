@@ -3,9 +3,15 @@ import '/app/globals.css'
 import NavbarCTA from '@/app/navbar'
 import FooterX from '@/app/footer'
 import React from 'react';
+import { Button} from 'flowbite-react';
 
 
 function Home() {
+
+  const buttonStyle = {
+    margin: '0 10px', // Add margin to create spacing between buttons
+    padding: '0px'
+  };
 
     const files = [
         {
@@ -83,11 +89,7 @@ function Home() {
       </p>
       <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
         <div className="rounded-md shadow">
-          <a href='/contact'
-            className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover-bg-indigo-700 md:px-10 md:py-4 md:text-lg"
-          >
-            Get A Free Quote Today!
-          </a>
+        <Button style={buttonStyle} href='/contact' className='px-2 bg-blue-600'>Get a Free Quote Today!</Button>
         </div>
      
       </div>
