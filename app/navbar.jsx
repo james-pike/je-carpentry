@@ -27,11 +27,11 @@ const NavbarCTA = () => {
 <div className='fixed top-0 z-50 w-full'>
 <Navbar fluid rounded>
       <Navbar.Brand href="https://flowbite-react.com">
-        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 ml-1 mr-2 sm:h-9" alt="Flowbite React Logo" />
-        <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">JE Carpentry</span>
+        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 ml-3 mr-3 sm:h-9" alt="Flowbite React Logo" />
+        <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">JEC</span>
       </Navbar.Brand>
-      <div className="flex px-0 md:order-2">
-      <Button style={buttonStyle} href="/contact" className='px-0 bg-blue-600'>Get Quote</Button>
+      <div className="flex px-2 md:order-2">
+      <Button style={buttonStyle} href="/contact" className='bg-blue-600'>Get Quote</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
