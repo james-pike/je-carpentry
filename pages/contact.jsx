@@ -70,7 +70,7 @@ function Contact() {
               </svg>
             </div>
             <div className='pt-5 lg:hidden'></div>
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 md:-mt-20">Get a Quote</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 md:-mt-20">Get a Free Quote</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
               integer elementum id sem. Arcu sed malesuada et magna.
@@ -136,7 +136,7 @@ function Contact() {
               <div class="sm:col-span-2">
                   <label for="message"  class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
                   <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
-                  <p class="mt-4 text-sm text-gray-500">Upon submitting this form, we will review your project requirements and get back to you with a quote. </p>
+                  <p class="mt-4 text-sm text-gray-500">Upon form submission, we will review your project requirements and provide a free quote. </p>
               </div>
               <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Get Quote</button>
             <hr></hr>
