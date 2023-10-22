@@ -31,7 +31,7 @@ const NavbarCTA = () => {
         <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">JE Carpentry</span>
       </Navbar.Brand>
       <div className="flex px-2 md:order-2">
-      <Button style={buttonStyle} href="/contact" className='bg-blue-600'>Get Quote</Button>
+      <Button style={buttonStyle} href="/contact" className='bg-blue-600'>Contact</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
