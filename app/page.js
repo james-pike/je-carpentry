@@ -72,14 +72,14 @@ function Home() {
       alt=""
     />
   </div>
-  <div className="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-48 lg:text-left">
+  <div className="w-full pt-10 pb-20 mx-auto text-center max-w-7xl lg:py-48 lg:text-left">
     <div className="px-6 sm:px-8 lg:w-1/2 xl:pr-16">
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
         <span className="block xl:inline">Input your custom tagline here.</span>{' '}
         
       </h1>
       <p className="max-w-md mx-auto mt-3 text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
-      This subtitle block can be used for further information about JE Carpentry. This subtitle can be used for information about JE Carpentry. 
+      This optional subtitle block can be used for additional information about JE Carpentry services. 
       </p>
       <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
         <div className="rounded-md shadow">
