@@ -35,6 +35,7 @@ function Home() {
         // More files...
       ]
 
+      {/*}
     useEffect(() => {
         // Add the Crisp script dynamically to the document
         var s = document.createElement("script");
@@ -58,44 +59,53 @@ function Home() {
         };
       }, []);
 
-      
-
+    */}
 
     return (
       <main>
       <NavbarCTA/>
-      <section class="relative min-h-screen flex items-center">
-    <div class="absolute inset-0 bg-no-repeat bg-cover bg-center z-0" style={{ backgroundImage: 'url(https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg)', backgroundPosition: 'center center', backgroundSize: 'cover' }}></div>
-    <div class="relative py-8 px-4 mx-auto max-w-screen-xl text-white z-1 bg-primary-transparent">
-        <div class="mb-6 max-w-screen-lg lg:mb-0 text-center">
-            <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none md:text-6xl lg:text-7xl">We invest in the world’s potential</h1>
-            <p class="mb-6 font-light text-gray-400 lg:mb-8 md:text-xl lg:text-2xl">The need for energy is universal. That's why Flowbite scientists and engineers are pioneering new research and pursuing new technologies to reduce emissions while creating more efficient fuels. We're committed to responsibly meeting the world's energy needs.</p>
-            <a href="#next-section" class="inline-flex items-c``enter py-3 px-5 font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-                Get a Free Quote Today
-                <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
-        </div>
-    </div>
-</section>
-
-
-
-
- {/*}     <section class="bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
-    <div class="px-4 mx-auto max-w-screen-xl text-center py-16 z-10 relative">
-       
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">We invest in the world’s potential</h1>
-        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+      <main className="lg:relative">
+  <div className="relative w-full h-80 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2">
+    <img
+      className="absolute inset-0 object-cover w-full h-full"
+      src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+      alt=""
+    />
+  </div>
+  <div className="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-48 lg:text-left">
+    <div className="px-6 sm:px-8 lg:w-1/2 xl:pr-16">
+      <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+        <span className="block xl:inline">Input your custom tagline here.</span>{' '}
         
+      </h1>
+      <p className="max-w-md mx-auto mt-3 text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
+      This subtitle block can be used for further information about JE Carpentry.  This subtitle block can be used for further information about JE Carpentry. 
+      </p>
+      <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
+        <div className="rounded-md shadow">
+          <a
+            href="#"
+            className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover-bg-indigo-700 md:px-10 md:py-4 md:text-lg"
+          >
+            Get A Free Quote Today!
+          </a>
+        </div>
+     
+      </div>
     </div>
-    <div class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-0 left-0 z-0"></div>
-</section>
-
-    */}
+  </div>
+</main>
 
 
 
-<ul role="list" className="grid grid-cols-2 ml-5 mr-5 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+
+
+
+
+
+
+<div className='bg-white'>
+<ul role="list" className="grid grid-cols-2 py-8 ml-5 mr-5 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
   {files.map((file) => (
     <li key={file.source} className="relative">
       <div className="relative block w-full h-0" style={{ paddingBottom: '100%' }}>
@@ -114,6 +124,7 @@ function Home() {
     </li>
   ))}
 </ul>
+</div>
 
 
 <FooterX/>

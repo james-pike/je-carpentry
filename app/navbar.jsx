@@ -31,15 +31,15 @@ const NavbarCTA = () => {
         <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">JE Carpentry</span>
       </Navbar.Brand>
       <div className="flex px-2 md:order-2">
-      <Button style={buttonStyle} className='bg-blue-600'>Get Quote</Button>
+      <Button style={buttonStyle} href="/contact" className='bg-blue-600'>Get Quote</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
       <ul className="flex flex-col p-4 -mt-1.5 font-medium text-left border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"> {/* Apply the classes here */}
-      <Navbar.Link href="#" active className="bg-blue-700 rounded"> {/* Apply the class to the selected item */}
+      <Navbar.Link href="/home" active className="bg-blue-700 rounded"> {/* Apply the class to the selected item */}
                   Home
                 </Navbar.Link>
-                <Navbar.Link href="/home">About</Navbar.Link>
+                <Navbar.Link href="#">About</Navbar.Link>
                 <Navbar.Link href="#">Services</Navbar.Link>
                 <Navbar.Link href="#">Gallery</Navbar.Link>
                 <Navbar.Link href="/contact">Contact</Navbar.Link>
