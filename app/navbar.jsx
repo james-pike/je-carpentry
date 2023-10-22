@@ -26,7 +26,7 @@ const NavbarCTA = () => {
 <nav className="fixed top-0 left-0 z-20 w-full bg-white border-b dark:bg-gray-900 dark:border-gray-600">
 <div className='fixed top-0 z-50 w-full'>
 <Navbar fluid rounded>
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand href="/">
         <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 ml-3 mr-3 sm:h-9" alt="Flowbite React Logo" />
         <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">JEC</span>
       </Navbar.Brand>
