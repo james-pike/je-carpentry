@@ -10,7 +10,9 @@ function Home() {
 
   const buttonStyle = {
     margin: '0 10px', // Add margin to create spacing between buttons
-    padding: '0px'
+    padding: '0px',
+    borderRadius: '0', // Set border-radius to 0 for square corners
+    fontSize: '1.5rem', // 
   };
 
     const files = [
@@ -70,7 +72,7 @@ function Home() {
     return (
       <main>
       <NavbarCTA/>
-      <main className="lg:relative">
+      <main className="z-10 lg:relative">
   <div className="relative w-full h-80 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2">
     <img
       className="absolute inset-0 object-cover w-full h-full"
@@ -89,7 +91,7 @@ function Home() {
       </p>
       <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
         <div className="rounded-md shadow">
-        <Button style={buttonStyle} href='/contact' className='px-2 bg-blue-600'>Get a Free Quote Today!</Button>
+        <Button style={buttonStyle} href='/contact' className='px-2 bg-blue-600 '>Get a Free Quote Today!</Button>
         </div>
      
       </div>
